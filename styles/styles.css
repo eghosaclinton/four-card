@@ -1,0 +1,147 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: sans-serif;
+    background:  hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+main{
+    width: 80%;
+    margin: 10vh auto;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.hero{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.75rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h1, h2{
+    font-weight: 600;
+}
+
+div, h2{
+    margin: 0;
+}
+
+.motto{
+    font-weight: 200;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+.about{
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.container{
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-child{
+    box-shadow: 0 0 10px rgba(0 0 0 / 30%);
+    border-radius: 7.5065px;
+    background: #fff;
+    padding: 2rem;
+}
+
+.about-child img{
+    display: block;
+    margin-left: auto;
+}
+
+.supervisor{
+    border-top: solid 4.5px hsl(180, 62%, 55%);
+}
+
+.team{
+    border-top: solid 4.5px hsl(0, 78%, 62%);
+}
+
+.karma{
+    border-top: solid 4.5px hsl(34, 97%, 64%);
+}
+
+.calc{
+    border-top: solid 4.5px hsl(212, 86%, 64%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    width: 90%;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+#user-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(220, 15%, 35%);
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+#user-name:hover{
+    text-shadow: red 1px 0, cyan -1px 0;
+}
+
+@media (min-width: 1023px){
+
+    main{
+        margin-top: 7.5vh;
+        width: 90%;
+        flex-direction: column;
+        max-width: 1300px;
+    }
+
+    .hero{
+        width: 50%;
+        margin-inline: Auto;
+    }
+
+    .about{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-child{
+        width: 33%;
+    }
+
+    .supervisor, .calc, .container{
+        width: 40%;
+    }
+
+    .team, .karma{
+        width: 100%;
+    }
+}
