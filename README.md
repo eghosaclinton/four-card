@@ -41,7 +41,7 @@ Mobile view (375 x 1360)
 
 ### Links
 
-- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-fourcard-component-with-component-SR1Phth3Nf)
 - Live Site URL: [ace-8.netlify.app](https://ace-8.netlify.app/)
 
 
